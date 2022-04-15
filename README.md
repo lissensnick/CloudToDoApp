@@ -19,5 +19,5 @@ MongoDb
 
 ## Setup
 * make sure the `APIURL` property in `docker-compose.yml` is correctly set to point to your API.
-* make sure the `DBURL` variable in `docker-compose.yml` is correctly set to point to your mongoDB instance.
+* make sure the `DBURL` variable in `docker-compose.yml` is correctly set to point to your mongoDB instance. This is a DB URI containing database credentials. (eg. `mongodb://username:password@host:port/database?options...`)
 * run `docker-compose build && docker-compose up` to boot
